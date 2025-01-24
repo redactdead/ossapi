@@ -174,7 +174,7 @@ def request(scope, *, requires_user=False, category):
     method.
 
     This method does the following things:
-    * makes sure the client has the requuired scope to access the endpoint in
+    * makes sure the client has the required scope to access the endpoint in
       question
     * makes sure the client has the right grant to access the endpoint in
       question (the client credentials grant cannot access endpoints which
